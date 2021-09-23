@@ -5,6 +5,7 @@ const client = require('twilio')(
   process.env.TWILIO_ACCOUNT_SID,
   process.env.TWILIO_AUTH_TOKEN
 );
+const port = process.env.PORT || 8080
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -34,6 +35,6 @@ app.post('/api/messages', (req, res) => {
     });
 });
 
-app.listen(3001, () =>
+app.listen(port, () =>
   console.log('Express server is running on localhost:3001')
 );
