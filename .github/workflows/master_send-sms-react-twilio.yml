@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'send-sms-react-twilio'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b31a0d1554e84e4d853e52c44200f4fb }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_LINUX_DEV }}
         package: .
