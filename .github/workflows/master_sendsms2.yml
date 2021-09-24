@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'sendsms2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A099C3182E634F9E85236ABF28B51BDD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_WINDOWS_DEV }}
           package: .
