@@ -2,5 +2,7 @@
     "appService.zipIgnorePattern": [
         "node_modules{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/1916aa3a-a235-41d2-b7bc-28b2de31345c/resourceGroups/react-rg/providers/Microsoft.Web/sites/sendsms2",
+    "appService.deploySubpath": "."
 }
